@@ -140,5 +140,24 @@ footer {
         display: none;
     }
 
+    @media (max-width: 640px) {
+        .Pikachu{
+           width: 90vw;
+           transform: translate(-50%/-50%);
+        }
+        .title {
+            transform: translateY(15%);
+        }
+        .text__description{
+            display
+            : none;
+        }
+        .title_description {
+            font-size: 10vw;
+        }
+        .action {
+            width: 100%;
+        }
+    }
 
 }
